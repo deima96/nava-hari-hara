@@ -1,0 +1,99 @@
+NAVA MANCHANBALLE ,,
+,,
+SECTION,ELEMENT,COPY
+SECTION 01 · NAVIGATION BAR,,
+,Logo / Brand Name,Nava Manchanballe
+,Nav Links,Overview    Location    Plots    Amenities
+,Sticky CTA Button,Book Site Visit
+SECTION 02 · HERO,,
+,Pre-Header Tag,"Premium Plotted Development · Manchanballe, North Bengaluru"
+,Hero Headline (H1),"North Bengaluru's
+Best-Positioned Plot."
+,Hero Subtext,"135 premium villa plots across 14 acres.
+"
+,Hero Image,[Image asset — no copy]
+SECTION 03 · PROJECT OVERVIEW,,
+,Section Tag,
+,Section Headline (H2),"Land in the right place
+at the right time."
+,Body Text,"Nava Manchanballe is a premium
+plotted development in North Bengaluru's
+fastest-growing infrastructure corridor.
+135 premium villa plots designed for
+generous frontage, optimal orientation,
+and zero wasted space.
+
+E-Khata and CUDA approved, RERA compliant,
+with 100% clear title and bank loans
+available from nationalised banks."
+,Stat 1 — Label / Value,Total Area / 14 ACRES
+,Stat 2 — Label / Value,Total Plots / 135 PLOTS
+,,
+,,
+SECTION 04 · LOCATION,,
+,Section Tag,Location
+,Section Headline (H2),"Five growth vectors.
+One address."
+,Body Text,Manchanballe sits at the centre of North Bengaluru's infrastructure boom. 
+,Connectivity List,"1. Kempegowda International Airport — 39 km
+2. NH44 — Bengaluru-Hyderabad Highway — 3 km
+3. STRR — Satellite Town Ring Road — 25 km
+4. ITIR — Tech & Aerospace Zone — 30 km
+5. Sadhguru Sannidhi — Isha Corridor — 12.5 km
+6. Chikkaballapur Town — 5 km
+7. Chikkaballapur Railway Station — 5 km
+8. Skandagiri Trek Point — 10 km"
+,CTA Below List,View Site on Map →
+,,
+SECTION 05 · AMENITIES,,
+,Section Tag,The Amenities
+,Section Headline (H2),"The infrastructure is ready
+before you arrive."
+,Card 1 — Title,Wide Internal Roads
+,Card 1 — Description,"30 and 40-foot black-topped internal roads. Already laid. Designed for easy navigation, impressive frontage and a community that feels complete from day one."
+,Card 2 — Title,Underground Power
+,Card 2 — Description,Underground electricity lines and organised feeder boxes throughout. No overhead wires. No clutter. A clean skyline — because the details matter as much as the land.
+,Card 3 — Title,24/7 Water Supply
+,Card 3 — Description,Dedicated overhead tank and underground distribution lines. Fully self-sustaining internal supply networks. Engineered for absolute reliability — regardless of what phase the broader region is in.
+,Card 4 — Title,Sewage Treatment Plant
+,Card 4 — Description,A fully operational STP ensuring a hygienic and environmentally responsible community. Built before Phase 1 opened — because this is what ready actually looks like.
+,Card 5 — Title,Street Lighting
+,Card 5 — Description,"Custom-designed street lighting across every internal road. A secure, active community environment from day one — built for residents, not show."
+SECTION 06 · PLOTS,,
+,Section Tag,The Plots
+,Section Headline (H2),"Pick your plot.
+Pick your future."
+,Body Text,"135 premium villa plots. Two sizes — 30×50 ft and 30×60 ft. Designed for privacy, optimal orientation and zero wasted space.
+
+Build on it. Hold it. Pass it on.
+Every plot is yours to decide."
+,,
+,Spec Card — Title,Plot Specifications
+,Spec: Plot Dimensions,30×50 ft and 30×60 ft
+,Spec: Total Plots,135 Units
+,Spec: Phase 1 Release,Now Open
+,Spec: Launch Price,"₹3,500 per sq ft"
+,Spec: E-Khata,Approved
+,Spec: CUDA,Approved
+,Spec: RERA,Compliant
+,Spec: Title,100% Clear
+,Spec: Bank Loans,Available from nationalised banks
+SECTION 07 · GALLERY,,
+,Left Image (Large),[Image asset — no copy]
+,Top-Right Image,[Image asset — no copy]
+,Bottom-Right Image,[Image asset — no copy]
+SECTION 08 · CONTACT / SITE VISIT FORM,,
+,Section Tag,Book Your Visit
+,Section Headline (H2),"Come see it
+before someone else does."
+,Section Subtext,"Phase 1 inventory is moving. Book your site visit, walk the land, verify the documents. The plot you're looking at may not be available when you come back."
+,Form Field 1,Full Name
+,Form Field 2,Contact Number
+,Form Field 3,Email Address
+,Submit CTA,Book My Site Visit
+,Success Message,Done. Our team will call you within 24 hours to confirm your visit details.
+,Privacy Note,Your details stay with us. One call. No spam.
+FOOTER,,
+,Footer Brand Name,Nava Manchanballe
+,Footer Nav Links,Overview    Location    Plots    Amenities    Contact
+,Footer Legal Line,© 2026 Nava Manchanballe. All rights reserved.

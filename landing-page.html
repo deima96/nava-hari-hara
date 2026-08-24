@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>THE ESTATE | Premium Architectural Living</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,700;1,400&amp;family=Space+Grotesk:wght@300;500;700&amp;family=Manrope:wght@300;400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-variant": "#f0e0e0",
+                      "on-surface": "#2a0c0c",
+                      "inverse-on-surface": "#fff5f5",
+                      "secondary-fixed-dim": "#f0a8a8",
+                      "on-surface-variant": "#6e4a4a",
+                      "inverse-surface": "#3d1212",
+                      "primary-container": "#9e3333",
+                      "primary": "#832626",
+                      "on-primary-fixed": "#2a0808",
+                      "on-tertiary-fixed-variant": "#0c4b6e",
+                      "on-tertiary-fixed": "#001e30",
+                      "background": "#fefafa",
+                      "on-primary-fixed-variant": "#5c1818",
+                      "surface-container-high": "#efdede",
+                      "on-secondary-fixed-variant": "#5c1818",
+                      "secondary-container": "#b84a4a",
+                      "surface-tint": "#832626",
+                      "surface-container-highest": "#e8d4d4",
+                      "outline-variant": "#dfcaca",
+                      "inverse-primary": "#f5a8a8",
+                      "surface-dim": "#e8d8d8",
+                      "on-error-container": "#93000a",
+                      "surface-bright": "#fefafa",
+                      "on-primary": "#ffffff",
+                      "secondary": "#9e3333",
+                      "surface-container-lowest": "#ffffff",
+                      "on-tertiary-container": "#f2f7ff",
+                      "outline": "#a67a7a",
+                      "tertiary-fixed-dim": "#9accf5",
+                      "primary-fixed-dim": "#f0a8a8",
+                      "primary-fixed": "#ffd6d6",
+                      "surface": "#fefafa",
+                      "surface-container": "#f5eaea",
+                      "on-error": "#ffffff",
+                      "on-secondary": "#ffffff",
+                      "on-background": "#2a0c0c",
+                      "on-tertiary": "#ffffff",
+                      "on-secondary-fixed": "#2a0808",
+                      "surface-container-low": "#ebebeb",
+                      "tertiary-container": "#43769b",
+                      "on-secondary-container": "#fff5f5",
+                      "tertiary-fixed": "#cbe6ff",
+                      "error-container": "#ffdad6",
+                      "error": "#ba1a1a",
+                      "on-primary-container": "#fff5f5",
+                      "secondary-fixed": "#ffd6d6",
+                      "tertiary": "#275d81"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "section-gap": "160px",
+                      "gutter": "32px",
+                      "unit": "8px",
+                      "margin-edge": "64px"
+              },
+              "fontFamily": {
+                      "body-md": ["Manrope"],
+                      "display-lg": ["Noto Serif"],
+                      "body-lg": ["Manrope"],
+                      "headline-md": ["Noto Serif"],
+                      "headline-xl": ["Noto Serif"],
+                      "label-caps": ["Space Grotesk"]
+              },
+              "fontSize": {
+                      "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "display-lg": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "300"}],
+                      "body-lg": ["18px", {"lineHeight": "1.7", "fontWeight": "400"}],
+                      "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "400"}],
+                      "headline-xl": ["48px", {"lineHeight": "1.2", "fontWeight": "400"}],
+                      "label-caps": ["12px", {"lineHeight": "1.2", "letterSpacing": "0.15em", "fontWeight": "500"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .architectural-grid {
+            background-image: radial-gradient(circle, #83262610 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-on-surface/10">
+<div class="flex justify-between items-center w-full px-margin-edge py-unit max-w-screen-2xl mx-auto">
+<div class="font-headline-md text-headline-md tracking-tighter text-on-surface">THE ESTATE</div>
+<div class="hidden md:flex items-center space-x-gutter">
+<a class="text-primary border-b border-primary pb-1 font-label-caps text-label-caps transition-all duration-300" href="#">Overview</a>
+<a class="text-on-surface-variant font-label-caps text-label-caps hover:text-secondary transition-all duration-300" href="#">Location</a>
+<a class="text-on-surface-variant font-label-caps text-label-caps hover:text-secondary transition-all duration-300" href="#">Amenities</a>
+<a class="text-on-surface-variant font-label-caps text-label-caps hover:text-secondary transition-all duration-300" href="#">Master Plan</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-3 font-label-caps text-label-caps tracking-widest hover:bg-primary-container transition-all active:scale-95 duration-200">
+                BOOK SITE VISIT
+            </button>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="pt-40 pb-section-gap flex flex-col items-center text-center px-margin-edge overflow-hidden">
+<div class="max-w-4xl mb-20">
+<span class="font-label-caps text-label-caps text-primary tracking-[0.3em] mb-6 block uppercase">An Ode to Timeless Living</span>
+<h1 class="font-display-lg text-display-lg text-on-surface mb-8 italic">The Intersection of Nature <br/> &amp; Architectural Precision</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Discover a sanctuary designed with the rigor of classical blueprints and the warmth of modern editorial luxury.</p>
+</div>
+<div class="w-full max-w-screen-2xl h-[716px] relative overflow-hidden group">
+<img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="A cinematic wide shot of a contemporary luxury estate nestled among ancient banyan trees. The architecture features clean vertical lines, floor-to-ceiling glass, and warm sandstone textures. The golden hour lighting casts long, soft shadows across a pristine lap pool in the foreground, creating a mood of quiet, exclusive tranquility. The overall aesthetic is one of permanence and refined luxury, blending high-end editorial photography with architectural precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8f6l3C2RCDfIE8cn7FH_kRN6A1BIM8GdM-UfX8VIMm5QxxKRoHeLk5xMZiQbN-Uzm7SbygqpYJ3ZFr_UqthiNPmMR8sq1KrBPjx__McD0C4I_YfazpYw_yXk82h2cwcpCGkVMLdEc7574WfhqvD85ic5tzOxgC18XD3ffPMB6TvVTHyeEv-YGPAxt18dNHC0XtUCi30TbUWGYtgtDtEn5sh3JpxyadG9cnQmKfS3r4eajntwrSXC6NexWQsSYuZDwnuvrWxuZFPQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/20 to-transparent"></div>
+</div>
+</header>
+<!-- Project Overview -->
+<section class="py-section-gap px-margin-edge bg-surface-container-low architectural-grid">
+<div class="max-w-screen-2xl mx-auto grid grid-cols-12 gap-gutter items-end">
+<div class="col-span-12 lg:col-span-5">
+<h2 class="font-label-caps text-label-caps text-primary mb-12">01 — PROJECT OVERVIEW</h2>
+<div class="font-headline-xl text-headline-xl text-on-surface leading-tight mb-8">
+                    An expansive canvas <br/>for your legacy.
+                </div>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-12">
+                    Spanning over 25 acres of lush topography, The Estate offers a curated collection of residential plots that harmonize with the existing landscape. Each square foot is planned to maximize atmospheric volume and individual privacy.
+                </p>
+</div>
+<div class="col-span-12 lg:col-span-7 grid grid-cols-2 gap-8 mb-4">
+<div class="border border-primary/10 p-10 bg-surface">
+<div class="font-label-caps text-label-caps text-on-surface-variant mb-2">TOTAL LAND</div>
+<div class="font-headline-md text-headline-md text-primary">25.5 ACRES</div>
+</div>
+<div class="border border-primary/10 p-10 bg-surface">
+<div class="font-label-caps text-label-caps text-on-surface-variant mb-2">TOTAL PLOTS</div>
+<div class="font-headline-md text-headline-md text-primary">142 UNITS</div>
+</div>
+<div class="border border-primary/10 p-10 bg-surface">
+<div class="font-label-caps text-label-caps text-on-surface-variant mb-2">PLOT SIZES</div>
+<div class="font-headline-md text-headline-md text-primary">3,000 - 8,500 SQFT</div>
+</div>
+<div class="border border-primary/10 p-10 bg-surface">
+<div class="font-label-caps text-label-caps text-on-surface-variant mb-2">RERA STATUS</div>
+<div class="font-headline-md text-headline-md text-primary">APPROVED</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Strategic Connectivity -->
+<section class="py-section-gap px-margin-edge bg-background">
+<div class="max-w-screen-2xl mx-auto">
+<div class="grid grid-cols-12 gap-gutter mb-20">
+<div class="col-span-12 lg:col-span-6">
+<h2 class="font-label-caps text-label-caps text-primary mb-8">02 — LOCATION</h2>
+<h3 class="font-display-lg text-headline-xl text-on-surface mb-10 italic">Seamlessly Connected, <br/>Purposely Secluded</h3>
+</div>
+<div class="col-span-12 lg:col-span-6 flex items-end">
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">Located at the prestigious northern corridor, The Estate provides direct access to the International Airport and major business hubs while maintaining a serene perimeter.</p>
+</div>
+</div>
+<div class="grid grid-cols-12 gap-gutter h-[600px]">
+<div class="col-span-12 lg:col-span-8 overflow-hidden border border-primary/10">
+<div class="w-full h-full bg-surface-variant relative">
+<img class="w-full h-full object-cover grayscale opacity-50 contrast-125" data-alt="A sophisticated cartographic map rendering of a premium metropolitan area. The map uses a palette of warm neutrals, charcoal grays, and soft gold accents to highlight major arterial roads and the estate's central location. The aesthetic is professional and architectural, resembling a high-end property brochure. Minimalist typography marks key landmarks, ensuring clarity and a luxury feel." data-location="Bangalore" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQE17NpxXZ603dMLJsz5xwBoIK-5titwYoHMiVXHtKkRsqlE-Z2KXKGqMSPbkZcalvzDb05FHr99_swbs4-or9YAqBLiyqlfgpvqkMhzy4CN8wVpLdysfO8rWS0Oi8B_hh_62_MpmtiOD5hcWh2DjxTZOV98S09YOdMeyq8FTJLRcg4u-DH2eAbdx4coTgbdoq_4IJjrarluBKeqc1xyvQM3JEevF4-3htQgbaKn514Yc5VUlZ3Qgt8XLAfa4mJUmjFDjNygNAwGA"/>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+<span class="material-symbols-outlined text-primary text-5xl">location_on</span>
+</div>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-4 flex flex-col justify-between">
+<div class="space-y-gutter">
+<div class="flex items-start gap-6 group">
+<span class="font-display-lg text-headline-md text-primary/30 transition-colors group-hover:text-primary italic">01</span>
+<div>
+<h4 class="font-label-caps text-label-caps text-on-surface font-bold">AIRPORT ACCESS</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">15 Minutes via Express Highway</p>
+</div>
+</div>
+<div class="w-full h-px bg-on-surface/10"></div>
+<div class="flex items-start gap-6 group">
+<span class="font-display-lg text-headline-md text-primary/30 transition-colors group-hover:text-primary italic">02</span>
+<div>
+<h4 class="font-label-caps text-label-caps text-on-surface font-bold">CBD CONNECTIVITY</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">25 Minutes from Finance District</p>
+</div>
+</div>
+<div class="w-full h-px bg-on-surface/10"></div>
+<div class="flex items-start gap-6 group">
+<span class="font-display-lg text-headline-md text-primary/30 transition-colors group-hover:text-primary italic">03</span>
+<div>
+<h4 class="font-label-caps text-label-caps text-on-surface font-bold">ELITE SCHOOLS</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Within 5km Radius</p>
+</div>
+</div>
+</div>
+<button class="w-full border border-primary text-primary py-4 font-label-caps text-label-caps hover:bg-primary hover:text-on-primary transition-all">VIEW LOCATION ADVANTAGES</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Amenities -->
+<section class="py-section-gap px-margin-edge bg-surface-dim">
+<div class="max-w-screen-2xl mx-auto">
+<h2 class="font-label-caps text-label-caps text-primary mb-16 text-center">03 — CURATED AMENITIES</h2>
+<div class="grid grid-cols-12 gap-gutter items-center">
+<div class="col-span-12 lg:col-span-7 h-[700px] overflow-hidden border border-primary/5">
+<img class="w-full h-full object-cover" data-alt="A breathtaking interior view of a luxury clubhouse spa. Large arched windows frame a view of manicured gardens. The space is filled with natural light, highlighting the warm limestone flooring and minimalist wooden furniture. A shallow reflecting pool sits at the center, creating a tranquil atmosphere. The color palette is composed of soft creams, warm beiges, and deep wood tones, evoking a sense of refined, organic luxury." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5po3ih5KjDvqmteFqwDymj-0oIhHvEUG5VHSV5xrtnPBcpyaCyiphRPlkomHQ4G8k1OOKoWGmkMJv6ksLhhm9l5GFg1PPNpJ45iLnEQS2KONDk1eHyaRPa0D3CbHFmk-hi9UD2pxXRpv0ARvLiSIaCh3i2FVWxBVIaKnGJXgEWA2mE0gty2o0zirIvUgvTtFoUBnHdvikhnDp_-GdIUzkK3h8Zk2FgSHBbVTf45T4F0vNyZGg-9g42CpLaSbRokWs9VRU0aHE04U"/>
+</div>
+<div class="col-span-12 lg:col-span-5 grid grid-cols-1 gap-6 -ml-16 relative z-10">
+<div class="bg-surface p-10 border border-primary/10 hover:border-primary transition-colors cursor-default">
+<span class="material-symbols-outlined text-primary mb-6 text-3xl">pool</span>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-4">The Azure Pavilion</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">An infinity-edge lap pool that merges with the horizon, flanked by private cabanas and lush screening.</p>
+</div>
+<div class="bg-surface p-10 border border-primary/10 hover:border-primary transition-colors cursor-default">
+<span class="material-symbols-outlined text-primary mb-6 text-3xl">spa</span>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-4">Wellness Sanctuary</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Curated treatment rooms and a meditation hall designed to offer silence and rejuvenation.</p>
+</div>
+<div class="bg-surface p-10 border border-primary/10 hover:border-primary transition-colors cursor-default">
+<span class="material-symbols-outlined text-primary mb-6 text-3xl">fitness_center</span>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-4">Athletic Club</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">State-of-the-art equipment housed in a structure of glass and steel, overlooking the main park.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Master Plan -->
+<section class="py-section-gap px-margin-edge bg-background architectural-grid">
+<div class="max-w-screen-2xl mx-auto flex flex-col items-center">
+<h2 class="font-label-caps text-label-caps text-primary mb-8">04 — MASTER PLAN</h2>
+<h3 class="font-headline-xl text-headline-xl text-on-surface mb-20 text-center max-w-2xl italic">Where Precision Meets <br/>Proportion</h3>
+<div class="w-full aspect-[21/9] border border-primary/10 p-12 bg-surface relative">
+<div class="absolute top-8 left-8 font-label-caps text-[10px] text-primary/40 uppercase tracking-widest">Blueprint Rev 2.0 / 2024</div>
+<div class="w-full h-full border border-dashed border-primary/20 flex items-center justify-center relative overflow-hidden">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-20" data-alt="An elegant architectural site plan of a luxury residential community. The drawing features clean black lines on a textured off-white background, showing the layout of plots, internal roads, and expansive green zones. Gold accents are used to highlight community spaces and water bodies. The aesthetic is that of a professional architect's drafting table, conveying a sense of order, precision, and high-end design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhNMR_6wVWPlhI8gU-xqJLEAgvyTzihhM9wcGWOc9sQFSCLCKe9qbFkn0WHCQKFrfIZhxcw_jnHdR4gP320ANKE8FY1NZfx_T8Hq_2n-SvLt5W01gIakjz9NcO-YrUKs-o8JJnSa7KPlb5img8fbPeVbcVzi9uFq6JGS8mZK8zYlM88_swY4Zr4HNOLzH0RLhMgWTkCJn8XhvPWrIDPCORh5JyH2wsZMFDFm6tJQvwXz2cSLM_Ji0J_vSqQVYVH9yFq1ZmMG-uXZE"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="text-center px-12 py-8 bg-surface/90 backdrop-blur-sm border border-primary max-w-xl">
+<p class="font-label-caps text-label-caps text-primary mb-4">TECHNICAL SPECIFICATIONS</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Our master plan follows a 'Net-Zero Traffic' philosophy, ensuring pedestrian-first zones and acoustic isolation for every plot through strategic green buffering.</p>
+<button class="mt-8 font-label-caps text-label-caps text-primary hover:tracking-widest transition-all">DOWNLOAD BROCHURE — PDF 12MB</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery -->
+<section class="py-section-gap px-margin-edge bg-surface-container-lowest">
+<div class="max-w-screen-2xl mx-auto">
+<div class="flex justify-between items-baseline mb-16">
+<h2 class="font-label-caps text-label-caps text-primary">05 — GALLERY</h2>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">VIEW FULL COLLECTION</a>
+</div>
+<div class="grid grid-cols-12 gap-gutter h-[800px]">
+<div class="col-span-8 h-full overflow-hidden">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-1000" data-alt="A high-fidelity photograph of a modern luxury villa exterior at dusk. The architecture features white cantilevered roofs, warm recessed lighting, and large glass walls that reveal an elegantly furnished interior. In the foreground, a low-profile fire pit glows softly beside a manicured lawn. The sky is a deep indigo, creating a beautiful contrast with the warm architectural lighting. The scene exudes exclusivity, modern comfort, and architectural brilliance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCs8t1-2-BZ-sdD2t-CQ1lVJOO-yU95d60DM4ddPHtnuvzxfLQibHZVsj-WQamFclLFKwyV443WtraPzIpyvmEtIkT2NXc8aQ1i7B5Uf3ZuAYqbLQuCGAeD1nkRkxSG-5D2q-K69ghViHThosIobKJLTO1vkbootz1L4rgCRW8745c_xVT5_j6nG0VtK8UOrV9lINQCdZPRnu6C1E630mRZKJ8fkkz9YTxNF138T9Gp5aRCctmHo9Jo6pk171wKsvBtLuN4MayyfhM"/>
+</div>
+<div class="col-span-4 h-full grid grid-rows-2 gap-gutter">
+<div class="overflow-hidden">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-1000" data-alt="A lifestyle shot of a high-end outdoor dining area within a private estate. A long, minimalist wooden table is set with artisanal ceramics and fine glassware. Overhanging trees provide natural shade, with dappled sunlight filtering through the leaves. The setting is intimate and serene, capturing the essence of upscale alfresco living. The color palette consists of natural greens, warm wood tones, and crisp whites." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB44VT9upGWNK5bMU14kgj2G4cIapu2AEwGAX17_ULrcbbFPzHlc4HbBskSmffO-bcuq_1Rh1hu_kncbWYcNrUiB-fgneGSVBM_IeDgGdqgk4jt1ppKwjSYkIR-w3_a_NIFJtHI6K3NT-cHXJMmkgaHZzihaQGLtfBQ1e36voDm8sGnp3Czk5XlSd-Xlilxj_qtqb7kClIvimV5PsX5cWYr60AtktX12fiWfjYNF1zd-Dl3oUXMw9T7JCsUi-0NDhgW0iIiYEbRxuU"/>
+</div>
+<div class="overflow-hidden">
+<img class="w-full h-full object-cover hover:scale-105 transition-transform duration-1000" data-alt="A macro architectural detail shot of high-quality materials used in a luxury construction. The image shows the intersection of textured natural stone, polished bronze accents, and smooth dark wood. The side-lighting emphasizes the contrasting textures and the precision of the craftsmanship. The overall mood is one of material honesty, durability, and quiet architectural sophistication." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYSAySzkhCkBkEuHEoaTy3OYaKWpTEOsU8lEHT1jboxhcW717fAGGHzU5QWwoA8hOCstuq6Y_dIYi0pSkQe-Sf1BxyF8faViDye_Y_X_jBdm_dtitfxjAQT9XFHqOdNqRz2Oogqy3O6stBQHDSubXDBbF-i4wXWT7fqkKRTz70noryOncwWI2eREkHVD3XlSd6Vh1mItTSlEsHvdk0JNn2tU93LdGknfTwPdy0NApCy-2jQJc76PQ_cnjyKQjGXfhpWFeg1KIxwg0"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Inquire Now -->
+<section class="py-section-gap px-margin-edge bg-surface">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="font-label-caps text-label-caps text-primary mb-8 uppercase">Begin Your Journey</h2>
+<h3 class="font-display-lg text-headline-xl text-on-surface mb-12 italic">Arrange a Private Tour</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-16">Enter your details below to receive a curated tour of the property with our estate consultants.</p>
+<form class="grid grid-cols-1 md:grid-cols-2 gap-x-gutter gap-y-12 text-left">
+<div class="relative">
+<input class="w-full border-0 border-b border-primary/20 bg-transparent py-4 px-0 focus:ring-0 focus:border-primary peer transition-colors font-body-md" id="name" name="name" placeholder=" " type="text"/>
+<label class="absolute left-0 top-4 font-label-caps text-label-caps text-on-surface-variant/50 pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-primary peer-[:not(:placeholder-shown)]:-top-4 peer-[:not(:placeholder-shown)]:text-primary" for="name">FULL NAME</label>
+</div>
+<div class="relative">
+<input class="w-full border-0 border-b border-primary/20 bg-transparent py-4 px-0 focus:ring-0 focus:border-primary peer transition-colors font-body-md" id="email" name="email" placeholder=" " type="email"/>
+<label class="absolute left-0 top-4 font-label-caps text-label-caps text-on-surface-variant/50 pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-primary peer-[:not(:placeholder-shown)]:-top-4 peer-[:not(:placeholder-shown)]:text-primary" for="email">EMAIL ADDRESS</label>
+</div>
+<div class="relative md:col-span-2">
+<input class="w-full border-0 border-b border-primary/20 bg-transparent py-4 px-0 focus:ring-0 focus:border-primary peer transition-colors font-body-md" id="phone" name="phone" placeholder=" " type="tel"/>
+<label class="absolute left-0 top-4 font-label-caps text-label-caps text-on-surface-variant/50 pointer-events-none transition-all peer-focus:-top-4 peer-focus:text-primary peer-[:not(:placeholder-shown)]:-top-4 peer-[:not(:placeholder-shown)]:text-primary" for="phone">CONTACT NUMBER</label>
+</div>
+<div class="md:col-span-2 flex justify-center pt-8">
+<button class="bg-primary text-on-primary px-16 py-5 font-label-caps text-label-caps tracking-widest hover:bg-secondary transition-all" type="submit">SUBMIT INQUIRY</button>
+</div>
+</form>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-section-gap px-margin-edge bg-surface-container-low border-t border-on-surface/5">
+<div class="grid grid-cols-12 gap-gutter max-w-screen-2xl mx-auto">
+<div class="col-span-12 lg:col-span-4 mb-16 lg:mb-0">
+<div class="font-headline-md text-headline-md text-on-surface mb-8">THE ESTATE</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs">Crafting legendary landscapes and architectural sanctuaries for the discerning few.</p>
+</div>
+<div class="col-span-6 lg:col-span-2">
+<h4 class="font-label-caps text-label-caps text-primary mb-8">EXPLORE</h4>
+<ul class="space-y-4">
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary hover:underline underline-offset-4 transition-all" href="#">Overview</a></li>
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary hover:underline underline-offset-4 transition-all" href="#">Location</a></li>
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary hover:underline underline-offset-4 transition-all" href="#">Amenities</a></li>
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary hover:underline underline-offset-4 transition-all" href="#">Master Plan</a></li>
+</ul>
+</div>
+<div class="col-span-6 lg:col-span-2">
+<h4 class="font-label-caps text-label-caps text-primary mb-8">LEGAL</h4>
+<ul class="space-y-4">
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary hover:underline underline-offset-4 transition-all" href="#">Privacy Policy</a></li>
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary hover:underline underline-offset-4 transition-all" href="#">Terms &amp; Conditions</a></li>
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary hover:underline underline-offset-4 transition-all" href="#">Legal Disclaimer</a></li>
+<li><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-secondary hover:underline underline-offset-4 transition-all" href="#">Cookie Policy</a></li>
+</ul>
+</div>
+<div class="col-span-12 lg:col-span-4 mt-16 lg:mt-0">
+<h4 class="font-label-caps text-label-caps text-primary mb-8">CONTACT</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mb-2">Corporate Office: Level 42, Sky Tower, North Corridor</p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">+91 800 555 0123 | concierge@theestate.com</p>
+<div class="flex space-x-6">
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">photo_camera</span></a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+<div class="col-span-12 pt-section-gap border-t border-on-surface/5 mt-16 flex flex-col md:flex-row justify-between items-center gap-8">
+<p class="font-label-caps text-[10px] text-on-surface-variant/60 tracking-widest uppercase">© 2024 THE ESTATE. All rights reserved. RERA No: PRM/KA/RERA/1251/446/PR/210302/004000</p>
+<div class="flex gap-12">
+<span class="font-label-caps text-[10px] text-primary">LUXURY RESIDENTIAL</span>
+<span class="font-label-caps text-[10px] text-primary">SUSTAINABLE DESIGN</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
