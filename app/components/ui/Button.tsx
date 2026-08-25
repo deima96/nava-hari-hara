@@ -20,7 +20,7 @@ type AsAnchor = BaseProps &
 type ButtonProps = AsButton | AsAnchor;
 
 const variantClasses: Record<ButtonVariant, string> = {
-  primary: "bg-[#5F845E] text-on-primary hover:bg-[#9e3333] active:scale-95",
+  primary: "bg-[#5F845E] text-on-primary hover:bg-[#486A48] active:scale-95",
   outline:
     "border border-[#5F845E] text-[#5F845E] hover:bg-[#5F845E] hover:text-on-primary",
   text: "text-[#5F845E] hover:tracking-widest",
