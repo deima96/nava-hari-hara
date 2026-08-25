@@ -106,7 +106,7 @@ export default function LocationSection() {
     const m = [
       {
         position: PROJECT_LOCATION,
-        label: "Nava Manchanballe",
+        label: "Nava Harihara",
         isProject: true,
       },
     ];

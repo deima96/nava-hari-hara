@@ -58,8 +58,8 @@ export default function Navbar({ onNavClick }: NavbarProps) {
 
   const closeDrawer = useCallback(() => setDrawerOpen(false), []);
 
-  const linkColor = mixColor("#ffffff", "#6e4a4a", scrollProgress);
-  const iconColor = mixColor("#ffffff", "#2a0c0c", scrollProgress);
+  const linkColor = mixColor("#ffffff", "#5F845E", scrollProgress);
+  const iconColor = mixColor("#ffffff", "#5F845E", scrollProgress);
 
   const navStyle = {
     backgroundColor: `rgba(254, 250, 250, ${scrollProgress * 0.95})`,
@@ -99,13 +99,13 @@ export default function Navbar({ onNavClick }: NavbarProps) {
               href="#contact"
               className="hidden sm:inline-flex font-label text-label-caps tracking-widest px-6 py-3 lg:px-8 lg:py-4 cursor-pointer transition-colors duration-150 hover:opacity-80"
               style={{
-                backgroundColor: `rgba(131, 38, 38, ${scrollProgress})`,
+                backgroundColor: `rgba(95, 132, 94, ${scrollProgress})`,
                 color: "#ffffff",
                 borderWidth: "1px",
                 borderStyle: "solid",
                 borderColor: mixColor(
                   "rgba(255,255,255,0.85)",
-                  "#832626",
+                  "#5F845E",
                   scrollProgress,
                 ),
               }}

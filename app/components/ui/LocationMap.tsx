@@ -44,7 +44,7 @@ export default function LocationMap({
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
         maxZoom: 19,
-      }
+      },
     ).addTo(map);
 
     L.control.zoom({ position: "bottomright" }).addTo(map);
@@ -82,7 +82,7 @@ export default function LocationMap({
             className: "project-marker",
             html: `<div style="
               width: 20px; height: 20px;
-              background: #832626;
+              background: #5f845e;
               border: 3px solid #fff;
               border-radius: 50%;
               box-shadow: 0 2px 8px rgba(131,38,38,0.5);
@@ -94,7 +94,7 @@ export default function LocationMap({
             className: "location-marker",
             html: `<div style="
               width: 14px; height: 14px;
-              background: #9e3333;
+              background: #5f845e;
               border: 2px solid #fff;
               border-radius: 50%;
               box-shadow: 0 2px 6px rgba(131,38,38,0.4);

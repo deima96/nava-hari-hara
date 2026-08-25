@@ -1,4 +1,8 @@
-import { type ButtonHTMLAttributes, type AnchorHTMLAttributes, type ReactNode } from "react";
+import {
+  type ButtonHTMLAttributes,
+  type AnchorHTMLAttributes,
+  type ReactNode,
+} from "react";
 
 type ButtonVariant = "primary" | "outline" | "text";
 
@@ -16,11 +20,10 @@ type AsAnchor = BaseProps &
 type ButtonProps = AsButton | AsAnchor;
 
 const variantClasses: Record<ButtonVariant, string> = {
-  primary:
-    "bg-[#832626] text-on-primary hover:bg-[#9e3333] active:scale-95",
+  primary: "bg-[#5F845E] text-on-primary hover:bg-[#9e3333] active:scale-95",
   outline:
-    "border border-[#832626] text-[#832626] hover:bg-[#832626] hover:text-on-primary",
-  text: "text-[#832626] hover:tracking-widest",
+    "border border-[#5F845E] text-[#5F845E] hover:bg-[#5F845E] hover:text-on-primary",
+  text: "text-[#5F845E] hover:tracking-widest",
 };
 
 export default function Button({
@@ -39,14 +42,20 @@ export default function Button({
 
   if ("href" in rest && rest.href) {
     return (
-      <a className={classes} {...(rest as AnchorHTMLAttributes<HTMLAnchorElement>)}>
+      <a
+        className={classes}
+        {...(rest as AnchorHTMLAttributes<HTMLAnchorElement>)}
+      >
         {children}
       </a>
     );
   }
 
   return (
-    <button className={classes} {...(rest as ButtonHTMLAttributes<HTMLButtonElement>)}>
+    <button
+      className={classes}
+      {...(rest as ButtonHTMLAttributes<HTMLButtonElement>)}
+    >
       {children}
     </button>
   );
