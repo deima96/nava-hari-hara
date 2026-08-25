@@ -19,11 +19,11 @@ const LocationMap = dynamic(() => import("@/app/components/ui/LocationMap"), {
 });
 
 /* ── Project location (Manchanballe) ── */
-const PROJECT_LOCATION: [number, number] = [13.4527675, 77.760294];
+const PROJECT_LOCATION: [number, number] = [13.4746353, 77.7207062];
 
 /** Google Maps place pin — location only, no directions */
 const SITE_GOOGLE_MAPS_URL =
-  "https://www.google.com/maps/place/Nava+Manchanbele/@13.4527675,77.760294,17z/data=!4m6!3m5!1s0x3bb1f1b030ad8b87:0xdfe684b096aba3a!8m2!3d13.4528005!4d77.7603371!16s%2Fg%2F11z5q154p7?entry=ttu";
+  "https://www.google.com/maps/place/Nava+Harihara/@13.4746353,77.7207062,17z/data=!4m6!3m5!1s0x3bb1efdc75bd3e07:0x312eae4f5e89deaf!8m2!3d13.4746301!4d77.7232811!16s%2Fg%2F11zktvvhgs?entry=ttu";
 
 /** Approximate drive time from project (mixed local / highway speeds). */
 function formatDriveTime(distanceKm: number): string {
@@ -37,56 +37,56 @@ const CONNECTIVITY = [
   {
     num: "01",
     title: "KEMPEGOWDA INTERNATIONAL AIRPORT",
-    distanceKm: 39,
+    distanceKm: 30.8,
     coords: [13.1979, 77.7063] as [number, number],
     zoom: 11,
   },
   {
     num: "02",
     title: "NH44 — BENGALURU-HYDERABAD HIGHWAY",
-    distanceKm: 3,
+    distanceKm: 3.4,
     coords: [13.445, 77.73] as [number, number],
     zoom: 14,
   },
   {
     num: "03",
     title: "STRR — SATELLITE TOWN RING ROAD",
-    distanceKm: 25,
+    distanceKm: 24.2,
     coords: [13.28, 77.62] as [number, number],
     zoom: 11,
   },
   {
     num: "04",
     title: "ITIR — TECH & AEROSPACE ZONE",
-    distanceKm: 30,
+    distanceKm: 25.1,
     coords: [13.249, 77.708] as [number, number],
     zoom: 12,
   },
   {
     num: "05",
     title: "SADHGURU SANNIDHI — ISHA CORRIDOR",
-    distanceKm: 12.5,
+    distanceKm: 14.5,
     coords: [13.35, 77.68] as [number, number],
     zoom: 12,
   },
   {
     num: "06",
     title: "CHIKKABALLAPUR TOWN",
-    distanceKm: 5,
+    distanceKm: 4.4,
     coords: [13.4355, 77.7279] as [number, number],
     zoom: 14,
   },
   {
     num: "07",
     title: "CHIKKABALLAPUR RAILWAY STATION",
-    distanceKm: 5,
+    distanceKm: 4.6,
     coords: [13.434, 77.726] as [number, number],
     zoom: 15,
   },
   {
     num: "08",
     title: "SKANDAGIRI TREK POINT",
-    distanceKm: 10,
+    distanceKm: 3.5,
     coords: [13.4664, 77.6896] as [number, number],
     zoom: 13,
   },

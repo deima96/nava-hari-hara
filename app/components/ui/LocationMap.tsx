@@ -135,7 +135,7 @@ export default function LocationMap({
         }
         .leaflet-control-zoom a {
           background: #fefafa !important;
-          color: #832626 !important;
+          color: #5f845e !important;
           border-color: #dfcaca !important;
         }
         .leaflet-control-zoom a:hover {
