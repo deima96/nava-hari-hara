@@ -85,9 +85,9 @@ const CONNECTIVITY = [
   },
   {
     num: "08",
-    title: "SKANDAGIRI TREK POINT",
-    distanceKm: 3.5,
-    coords: [13.4664, 77.6896] as [number, number],
+    title: "KIADB INDUSTRIAL AREA",
+    distanceKm: 8,
+    coords: [12.7984801, 77.6569823] as [number, number],
     zoom: 13,
   },
 ];
