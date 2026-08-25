@@ -17,17 +17,17 @@ const GALLERY_NEW = "/gallery-new";
 
 const GALLERY_IMAGES = {
   main: {
-    src: `${GALLERY_NEW}/one.JPG`,
+    src: `${GALLERY_NEW}/hari1.JPG`,
     alt: "Nava Manchanballe plotted development overview",
   },
 
   secondary: [
     {
-      src: `${GALLERY_NEW}/hari1.JPG`,
+      src: `${GALLERY_NEW}/hari2.JPG`,
       alt: "Community roads and landscaping at Nava Manchanballe",
     },
     {
-      src: `${GALLERY_NEW}/hari2.JPG`,
+      src: `${GALLERY_NEW}/hari3.JPG`,
       alt: "Premium villa plots and streetscape",
     },
   ],

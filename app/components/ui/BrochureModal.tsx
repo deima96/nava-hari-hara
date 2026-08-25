@@ -62,7 +62,7 @@ export default function BrochureModal({
 
           <button
             type="submit"
-            className="w-full rounded-xl bg-[#5F845E] py-3 text-white transition-all hover:bg-[#9e3333]"
+            className="w-full rounded-xl bg-[#5F845E] py-3 text-white transition-all hover:bg-[#486A48]"
           >
             Register & Download
           </button>
