@@ -3,9 +3,9 @@
 /* ─── Design Tokens (Tailwind CSS v4 @theme) ─── */
 @theme inline {
   /* ── Colors (burgundy #832626 — no brown/cream palette) ── */
-  --color-primary: #832626;
-  --color-primary-container: #9e3333;
-  --color-surface-tint: #832626;
+  --color-primary: #5f845e;
+  --color-primary-container: #5f845e;
+  --color-surface-tint: #5f845e;
   --color-on-primary: #ffffff;
   --color-on-primary-container: #fff5f5;
 
@@ -34,7 +34,7 @@
   --color-primary-fixed-dim: #f0a8a8;
   --color-inverse-primary: #f5a8a8;
 
-  --color-secondary: #9e3333;
+  --color-secondary: #5f845e;
   --color-secondary-container: #b84a4a;
   --color-on-secondary: #ffffff;
   --color-on-secondary-container: #fff5f5;
@@ -175,7 +175,7 @@ h6 {
 
 /* ─── Architectural Grid Background ─── */
 .architectural-grid {
-  background-image: radial-gradient(circle, #83262610 1px, transparent 1px);
+  background-image: radial-gradient(circle, #5f845e10 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
