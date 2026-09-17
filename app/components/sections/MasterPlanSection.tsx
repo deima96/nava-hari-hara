@@ -26,8 +26,8 @@ export default function MasterPlanSection() {
             <div className="w-full border border-dashed border-primary/20">
               {/* Previous master plan: src="/map.jpg" */}
               <ImageWrapper
-                src="/Harihara_V3.png"
-                alt="Manchanballe Phase 1 master plan with numbered plots, 30/40/50 foot roads, park and landscaped avenues"
+                src="/Harihara_layout.png"
+                alt="Harihara Master Plan"
                 width={2722}
                 height={2828}
                 fit="contain"
