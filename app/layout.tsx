@@ -27,9 +27,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Nava Manchanballe | Premium Plotted Development, North Bengaluru",
+  title: "Nava Harihara | Premium Plotted Development, North Bengaluru",
   description:
-    "135 premium villa plots across 14 acres in Manchanballe, North Bengaluru. E-Khata & CUDA approved, RERA compliant. Book your site visit today.",
+    "57 premium villa plots across 10 acres in Harihara, North Bengaluru. E-Khata & CUDA approved, RERA compliant. Book your site visit today.",
 };
 
 export default function RootLayout({
